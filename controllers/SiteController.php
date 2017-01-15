@@ -59,10 +59,20 @@ class SiteController extends Controller
      * @return string
      */
     public function actionIndex()
-    {
-        return $this->render('index');
-    }
+{
+    return $this->render('index');
+}
 
+
+    public function actionServices()
+{
+    return $this->render('services');
+}
+
+    public function actionPayment()
+    {
+        return $this->render('payment');
+    }
     /**
      * Login action.
      *
