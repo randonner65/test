@@ -1,0 +1,356 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 150px;
+	background: #FFE680;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 100px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 0 0 270px;
+}
+
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	margin: -30px auto 0;
+	min-width: 1000px;
+	height: 30px;
+	background: #BFF08E;
+	position: relative;
+}
+a {
+		text-decoration: none;
+}
+a:link{
+	color: #300060;
+}
+a:visited {
+    color: #300060; /* ע氠𐯱溥󡲱쯪 */
+}
+
+.block th {
+	display: block;
+}
+ 
+ body  {
+	 background: #04DFF0;
+	 font-family: Arial, "Iimew New Roman", sans-serif;
+	 //font-size:100%;
+	 height: auto !important; 
+	 height: 100%;
+	 min-height: 100%;
+	 position: relative;
+	 margin: 0;
+}
+
+
+.clear {
+	clear: both; 
+}
+
+#content ul {
+	padding: 0;
+}
+
+#content {
+	padding-bottom: 50px;
+	clear: both;
+}
+#content div{
+	display: block;
+}
+
+#footer  {
+	border-top: 2px solid black;
+	bottom: 0;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	clear: both;
+} 
+#footer p {
+	text-align: center;
+		margin: 5px;
+}
+h1, h2 {
+	text-align: center;
+}
+html {
+	height: 100%;
+}
+#banner img {
+	border: 0;
+	margin-bottom: -4px;
+}
+img {
+	border: 0;
+}
+#language a { 
+	text-decoration: none;
+	font-size: 140%;
+	color: #000
+} 
+#language p {
+	float: left;
+ }
+#language_ru,  #language_ua , #tel {
+	float: left;
+	margin-left: 15px;
+ }
+.left {
+	float: left;
+ }
+#left_panel {
+	float: left;
+	width: 200px;
+	border: 3px;
+	margin-bottom: 50px;
+ } 
+ 
+#left_panel a:hover, #left a span:hover{
+	color: #ffe;
+}
+
+#left_panel ul li a {
+	color: #33d;
+}
+#left_panel  a span{
+	color: #000;
+ }
+
+#left_panel li {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	font-size: 122%;
+	width: -moz-min-content;
+ }
+
+#left_panel ul {
+	margin-top: 20px;
+	padding-left: 0;
+  
+  }
+#left_panel ul  ul{
+	margin-top: 5px;
+	padding-left: 10px;
+	border-bottom: 2px solid black;
+ }  
+  
+#left_panel h2 {
+	margin: 0;
+ }
+
+#left_panel a{
+	text-decoration: none;
+	display: block;
+}
+#main_content p:first-letter  {
+	  font-size: 150%;
+ }
+ 
+#main_content {
+	margin-left: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#main_content p { 
+    text-indent: 1.5em; 
+    text-align: justify;  
+   }
+#table1 div {
+	display: none; 
+}   
+.schema td {
+	background: #eee; 
+}
+.schema th {
+	background: #aea; 
+}
+#schema img {
+	margin: auto;
+}
+
+#search {
+	margin-right: 0;
+}
+
+#topmenu a:hover {
+    background-image: url('../images/46.gif');
+	color: #ffe;
+} 
+
+
+#topmenu ul li a {
+    color: #5D4211;
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 11px;
+	
+    text-decoration: none;
+}
+#topmenu {
+	margin-left: 0px;
+	display: table;
+    width: 100%;
+	margin-top: 0px;
+	background: #9BC0DA;
+	
+}
+
+
+#topmenu ul {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#topmenu li {
+	float: left;
+	list-style: none;
+}	
+#topmenu ul {
+	list-style: none;
+}
+#top_panel {
+background: #9BC0DA;
+}
+#top_panel img{
+	margin: 5px 5px 5px 3px;
+}
+#top_panel p{
+	margin: 3px;
+	font-size: 130%;
+	color: #000;
+	
+}
+
+
+
+/* 
+jFlow Plus Demo CSS 
+
+Description: Demo styles NOT for use with jFlow Plus
+Creator: Devin Walker
+Date: July 29, 2010
+
+*/
+
+body {
+	margin: 0;
+	padding: 0 50px 50px 50px;
+	background: url("../images/bg.png") repeat top left transparent; 
+	font-family: Georgia, serif;
+}
+
+#jFlowCredits {
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#jFlowCredits h1 {
+	color: #666;
+	font-weight: normal;
+	font-size: 90px;
+	line-height: 1.1em;
+	text-shadow: 1px 1px 1px #FFF;
+	margin: 20px 0 0 0;
+}
+
+
+#jFlowCredits h1 span {
+	font-style: italic;
+	background-color: #CCC;
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #999;
+
+}
+
+#jFlowCredits h2 {
+	margin: 0 0 30px 0;	
+}
+
+#jFlowCredits h2 a {
+	color: #FFF;
+	text-decoration: none;
+		text-shadow: 1px 1px 1px #999;
+
+}
+	
+#jFlowCredits h2 a:hover { 
+	text-decoration: underline;
+	background-color: #CCC;
+	color: #FFF;
+}
+
+
+

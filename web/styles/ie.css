@@ -1,0 +1,20 @@
+#footer  {
+	border-top: 2px solid black;
+	bottom: 0;
+	height: 50px;
+	position: relative;
+	width: 100%;
+	clear: both;
+} 
+.schema_title {
+	margin-top: 50px;
+}
+#left_panel li {
+	list-style: none;
+	margin: 5px;
+	padding: 0;
+	font-size: 122%;
+	width: auto;
+	display: inline;
+	text-indent: 0;
+ }

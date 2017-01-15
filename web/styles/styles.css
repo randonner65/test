@@ -1,0 +1,470 @@
+﻿a {
+		text-decoration: none;
+}
+a:link{
+	color: #300060;
+}
+a:visited {
+    color: #300060; /* Цвет посещенных ссылок */
+}
+#banner img {
+	border: 0;
+	margin-bottom: -4px;
+        
+}
+.block th {
+	display: block;
+}
+ 
+ body  {
+	 background: #C4DFF0;
+	 
+	 font-family: Arial, "Iimew New Roman", sans-serif;
+	 //font-size:100%;
+	 height: auto !important; 
+	 height: 100%;
+	 min-height: 100%;
+	 position: relative;
+	 margin: 0;
+	
+	 
+}
+/*div #main_content{
+	background: #C4DFF0 url('/images/balloons.gif') repeat;
+	 opacity: 0.99;
+
+}*/
+
+.clear {
+	clear: both; 
+}
+
+#content ul {
+	padding: 0;
+}
+
+#content {
+	padding-bottom: 50px;
+	clear: both;
+}
+#content div{
+	display: block;
+	position:relative;
+}
+#container{
+margin:0 auto;  /*выравниваем макет по центру в современных браузерах */
+text-align:left;  /*Отменяем tex-align:center заданное в Body. Делаем чтобы весь текст в макете выравнивался по левому краю */
+min-width:550px;  /*задаем минимальную ширину макета в современных браузерах */
+width:expression(   /*задаем минимальную ширину макета в старых версия браузера. Просто замените цифру на свою шиирину :) */
+(document.compatMode && document.compatMode == 'CSS1Compat')
+?
+(
+document.documentElement.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+:
+(
+document.body.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+);
+}
+
+.discrip img {
+	float: none;
+}
+#footer  {
+	border-top: 2px solid black;
+	bottom: 0;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	clear: both;
+} 
+#footer p {
+	text-align: center;
+		margin: 5px;
+}
+.handle {
+	width: 250px;
+
+}
+h1, h2 {
+	text-align: center;
+}
+#header{
+	/*background: #C4DFF0 url('/images/997854452.gif') repeat;  */
+	 opacity: 0.8;
+}
+html {
+	height: 100%;
+}
+
+img {
+	border: 0;
+	margin: 0;
+}
+img #contact1  {
+		margin-bottom: -5px;
+}
+#indiag a, #indiag img{
+	margin-bottom: -4px;
+}
+#indiag p{
+	margin-bottom: 0px;
+}
+
+#language a { 
+	text-decoration: none;
+	font-size: 140%;
+	color: #000
+} 
+#language p {
+	float: left;
+ }
+#language_ru,  #language_ua , #tel {
+	float: left;
+	margin-left: 15px;
+ }
+.left {
+	float: left;
+ }
+#left_panel {
+	float: left;
+	width: 200px;
+	border: 3px;
+	margin-bottom: 50px;
+ } 
+ 
+#left_panel li a:hover{
+	background-position: 50% 100%;
+	width: 200px;
+	height: 55px;
+	display:block;
+	color:#fff; /* цвет букв в активном состоянии */
+	
+}
+}
+
+#left_panel li a{
+	color:#909090; /* цвет букв в обычном состоянии */
+	background: url('/images/vert_menu.png') no-repeat 0 0; /* путь к изображению */
+	text-decoration:none; 
+	width: 200px;
+	height: 55px;
+	display:block;
+	border:none;
+	
+}
+#left_panel  a span{
+	color: #000;
+ }
+
+#left_panel li {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	font-size: 122%;
+	width: auto;
+
+ }
+
+#left_panel ul {
+	margin-top: 20px;
+	padding-left: 0;
+	margin-left: 0;
+  }
+#left_panel ul  ul{
+	margin-top: 5px;
+	padding-left: 10px;
+	border-bottom: 2px solid black;
+ }  
+  
+#left_panel h2 {
+	margin: 0;
+ }
+
+#left_panel a{
+	text-decoration: none;
+	display: block;
+}
+#main_content p  {
+	font-size: 100%;
+	
+	margin: 0;
+	text-indent: 1.5em; 
+	text-align: justify;
+ }
+ 
+#main_content {
+	margin-left: 270px;
+	padding-left: 10px;
+	padding-right: 10px;
+        margin-right: 50px;
+	
+}
+#main_content p { 
+  
+   }
+. ret_list_scchemes {
+	float: right;
+} 
+   
+   
+. propswitch td {
+background: #aea;
+}  
+  
+.schema td {
+	background: #eee; 
+}
+.schema th {
+	background: #aea; 
+}
+.schema_title {
+
+}
+#schema img {
+	margin: auto;
+}
+.scheme div {
+	margin-top: -20px;
+	width: 200px;
+}
+
+#search {
+	margin-right: 0;
+}
+#table1 div {
+	display: none; 
+} 
+#topmenu a:hover {
+    background-image: url('../images/46.gif');
+	color: #ffe;
+} 
+#constr_switcher a:hover {
+    background-image: url('../images/46.gif');
+	color: #ffe;
+}
+div #constr_switcher  a{
+	height: 50px;
+	padding: 20px;
+	background: #aaa;
+	 font-size: 150%;
+}
+div #constr_switcher  {
+	margin-top: 80px;
+}
+div .constr_switcher1  a{
+	height: 50px;
+	padding: 20px;
+	background: #aaa;
+	 font-size: 150%;
+}
+div .constr_switcher1  {
+	margin-top: 80px;
+}
+
+
+
+#topmenu ul li a {
+    color: #5D4211;
+    display: block;
+    font-size: 130%;
+    font-weight: bold;
+    padding: 11px;
+	
+    text-decoration: none;
+}
+#topmenu {
+	margin-left: 0px;
+	display: table;
+    width: 100%;
+	margin-top: 0px;
+	background: #9BC0DA;
+	
+}
+
+
+#topmenu ul {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#topmenu li {
+	float: left;
+	list-style: none;
+}	
+#topmenu ul {
+	list-style: none;
+}
+#top_panel {
+
+background: -moz-linear-gradient(black, white); /* FF 3.6+ */  
+    background: -ms-linear-gradient(black, white); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(black, white); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(black, white); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */  
+    background: linear-gradient(rgb(199, 223, 250), rgb(55, 133, 206)); /* the standard */  
+
+
+
+
+
+
+
+
+
+
+}
+#top_panel img{
+	margin: 5px 5px 5px 3px;
+}
+#top_panel p{
+	margin: 3px;
+	font-size: 130%;
+	color: #000;
+	
+}
+
+
+
+#menu{
+	width:100%;
+	margin:0;
+	padding:0;
+	height: 50px;
+}
+
+#menu ul{
+	list-style:none;
+}
+
+#menu li{
+	list-style:none;
+	display:block;
+	float:left;
+}
+
+#menu li a{
+	font-family:sans-serif;
+	display:block;
+	float:left;
+	height:50px;
+	color:#F4F4F4;
+	font-size:18px;
+	font-weight:bold;
+	background:url('/images/menu_left.png') no-repeat left;
+	line-height:49px;
+	padding:0 0 0 20px;
+	text-decoration:none;
+}
+
+#menu li a span{
+	display:block;
+	float:left;
+	background:url('/images/menu_right.png') no-repeat right;
+	height:50px;
+	color:#F4F4F4;
+	line-height:49px;
+	padding:0 20px 0 0;
+}
+
+#menu li a:hover{
+	display:block;
+	float:left;					
+	background:url('/images/menu_left_h.png') no-repeat left;
+	height:50px;
+}
+
+#menu li a:hover span{
+	display:block;
+	float:left;					
+	background:url('/images/menu_right_h.png') no-repeat right;
+	color:#fff;
+	height:50px;
+
+}
+
+#order a:hover {
+    background: url('/images/basket-hr.png'); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+#order a {
+    background: url('/images/basket.png') no-repeat; /* Путь к файлу с исходным рисунком  */
+      display: block; /*  Рисунок как блочный элемент */
+    width: 200px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+    
+
+}
+
+
+
+ul#menuleft {list-style-type:none; margin:0; padding:0;}
+
+ul#menuleft li a{
+	color:#909090; /* цвет букв в обычном состоянии */
+	background: url('/images/vert_menu.png') no-repeat 0 0; /* путь к изображению */
+	text-decoration:none; 
+	width: 200px;
+	height: 55px;
+	display:block;
+	border:none;
+	
+}
+
+ul#menuleft li a:hover{
+	background-position: 50% 100%;
+	width: 200px;
+	height: 55px;
+	display:block;
+	color:#fff; /* цвет букв в активном состоянии */
+	
+}
+
+ul#menuleft li a span{
+	font-family:-webkit-pictograph; /* Шрифт букв */
+	font-size:17px; /* размер букв */
+	padding:17px 0 0 8px;
+	display:block;	
+}
+
+
+
+#page-wrap						{ background: white; width: 960px; margin: 0 auto; 
+								  padding: 50px 0; }
+
+#slider							{ background:  url(''); height: 227px; overflow: hidden;
+								  position: relative; margin: 15px 0;
+                                                                  width: 960px;    
+height: 230px;
+
+ }
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 2880px; position: relative; }
+
+.slide							{ padding: 40px 30px; width: 900px; float: left; position: relative; }
+.slide h2						{ font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+								  color: #1DABEE; text-align: left;
+ }
+.slide p						{ color: #999; font-size: 12px; line-height: 15px; width: 300px; }
+.slide img						{ position: absolute; top: 20px; left: 400px; }
+#slider-stopper					{ position: absolute; top: 1px; right: 20px; background: #1DABEE; color: white;
+								  padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
+
+
+
+
+
+
+
