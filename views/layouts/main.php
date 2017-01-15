@@ -21,7 +21,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title>Харьковреле - заказать блок управления двигателем</title>
+
     <meta http-equiv="Content-type" content="text/html; charset=utf8"/>
     <meta name="Keywords" content="Харьковреле, заказать блок управления двигателем, купить блок управления двигателем, продажа блоков управления двигателем" />
     <meta name="Description" content="Харьковреле, заказать блок управления двигателем, купить блок управления двигателем, продажа блоков управления двигателем" />
@@ -36,12 +36,10 @@ AppAsset::register($this);
 <?php require_once "header.html";?>
 <div id = "content" >
     <?php require_once "left_panel.html";?>
-    <div id = "main_content">
-        <h1>Заказать блок управления двигателем</h1>
-        <center><p>Для заказа блока управления двигателем позвоните по телефону <b>(057) 759 18 54</b>.</p></br>
-            <p>Форма On-line заказа блока управления двигателем находистя в разработке.</p></center>
-    </div>
 </div>
+
+<?= $content; ?>
+
 <div class="clear"></div>
 
 <?php //require_once "footer.html";?>

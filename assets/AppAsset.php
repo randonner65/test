@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         '../web/js/jquery-1.2.6.js',
+        '../web//js/startstop-slider.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

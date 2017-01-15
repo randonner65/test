@@ -2,52 +2,39 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Главная страница';
 ?>
-<div class="site-index">
+<div id = "main_content">
+    <h1>Мы занимаемся проектированием и монтажом электрооборудования любой сложности. Производим поворотные кулачковые переключатели галетного типа</h1>
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+    <div id="slider">
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+        <div id="mover">
+            <div id="slide-1" class="slide">
+                <h2>Переключатели</h2>
+                <p>Ряд кулачковых переключателей серии S10, 16, 25, 32, 63, 100, 160J – новое поколение переключателей в электрическом ряду от 10 до 160А.</p>
+                <a href="/pages/order_switcher/order_switcher.php"><img src="/images/pereklyuchateli-slide.gif" alt="learn more" /></a>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+            <div class="slide">
+                <h2>Шкафы каркасные</h2>
+                <p>Металлоконструкции каркасные напольного исполнения серии МК</p>
+                <a href="/pages/order_mc/order_mc.php"><img src="/images/shkafi-karkasnie-slide.gif" alt="learn more" /></a>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            <div class="slide">
+                <h2>Пульты</h2>
+                <p>Пульты управления с наклонной консолью, прямой и без консоли, могут комплектоваться цоколем </p>
+                <a href="/pages/order_mc/order_mc.php"><img src="/images/pulti-slide.gif" alt="learn more" /></a>
             </div>
         </div>
-
     </div>
+
+    <h2>Наши переключатели перекрывают номенклатуру изделий LK-Spamel, 4G-Апатор, ПВ, ПГ, ПКУ, <span style="color: #000000;">ПКП</span></h2>
+    <p>Частное предприятие <strong>Харьковреле</strong><!-- strong--> является дочерним предприятием научно-технического центра <strong><a title="Харьковрелекомплект" name="asd" href="http://ntc.com.ua">Харьковрелекомплект</a></strong><!-- strong--> и занимается производством <a style="font-size: 18px;" title="Металлоконструкции" href="http://khrl.com.ua/pages/metal_constr/metal_constr.php"> электротехнических изделий.</a></p>
+    <p>Вам выгодно сотрудничать с нами потому, что:</p>
+    <p>- у нас высококвалифицированные специалисты, имеющие большой теоретический и практический опыт работ;</p>
+    <p>- мы ведем индивидуальную работу с каждым клиентом для достижения оптимальных результатов;</p>
+    <p>- мы используем современные высокотехнологичные комплектующие ведущих европейских производителей, основная масса которых постоянно поддерживается на складе;</p>
+    <p>- мы выполняем все работы быстро, качественно и надежно;</p>
+    <p>- мы проводим гибкую ценовую <span style="color: #000000;">политику</span>.</p>
+    <img style="border: 0;" src="/images/main_page/raes.png" alt="РАЭС" width="100%" /> </br></br><img style="border: 0;" src="/images/main_page/asrk.jpg" alt="АСРК" width="100%" />
 </div>
