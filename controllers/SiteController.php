@@ -72,6 +72,86 @@ class SiteController extends Controller
     public function actionPayment()
     {
         return $this->render('payment');
+        
+    }
+    public function actionProducts()
+{
+    return $this->render('products');
+
+}
+
+    public function actionReg_doc()
+    {
+        return $this->render('reg_doc');
+
+    }
+
+    public function actionOrder()
+    {
+        return $this->render('order');
+
+    }
+
+    public function actionDescription_switchers()
+{
+    return $this->render('description_switchers');
+}
+
+    public function actionSwitchers()
+    {
+        return $this->render('switchers');
+    }
+    public function actionFaqs()
+    {
+        return $this->render('faqs');
+    }
+    public function actionCertificates()
+    {
+        return $this->render('certificates');
+    }
+    public function actionMetal_constr()
+    {
+        return $this->render('metal_constr');
+    }
+    public function actionCabinets_frame()
+    {
+        return $this->render('cabinets_frame');
+    }
+
+    public function actionCabinets_allwelded()
+    {
+        return $this->render('cabinets_allwelded');
+    }
+
+    public function actionBoxes()
+    {
+        return $this->render('boxes');
+    }
+
+    public function actionRemotes()
+    {
+        return $this->render('remotes');
+    }
+
+    public function actionBcm()
+    {
+        return $this->render('bcm');
+    }
+    public function actionContacts()
+    {
+        return $this->render('contacts');
+    }
+    public function actionOrder_mc()
+    {
+        return $this->render('order_mc');
+    }
+    public function actionOrder_bcm()
+    {
+        return $this->render('order_bcm');
+    }
+    public function actionOrder_switcher()
+    {
+        return $this->render('order_switcher');
     }
     /**
      * Login action.

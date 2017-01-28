@@ -23,8 +23,8 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
 
     <meta http-equiv="Content-type" content="text/html; charset=utf8"/>
-    <meta name="Keywords" content="Харьковреле, заказать блок управления двигателем, купить блок управления двигателем, продажа блоков управления двигателем" />
-    <meta name="Description" content="Харьковреле, заказать блок управления двигателем, купить блок управления двигателем, продажа блоков управления двигателем" />
+    <meta name="Keywords" content=" " />
+    <meta name="Description" content="" />
     <meta name="Author" content="Дмитрий Коржов" />
     <link href="/images/icon1.ico" rel="shortcut icon" type="image/x-icon" />
     <title><?= Html::encode($this->title) ?></title>
@@ -36,9 +36,13 @@ AppAsset::register($this);
 <?php require_once "header.html";?>
 <div id = "content" >
     <?php require_once "left_panel.html";?>
-</div>
+
+    <div  style="margin-left: 240px;  ">
 
 <?= $content; ?>
+
+</div>
+</div>
 
 <div class="clear"></div>
 
